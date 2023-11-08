@@ -1,0 +1,38 @@
+.sec4_contact {
+	background-color: #FD5001;
+	padding: 100px 0;
+	height: 100vh;
+	.title {
+		position: relative;
+		h2 {
+			color: #fff;
+			&::after {
+				// background-color: #131313;
+				display: none;
+			}
+		}
+	}
+	.me{
+		position: absolute;
+		top: 50px;
+		right: 0;
+		transform: rotate(90deg);
+		>h2{
+			font-size: 18rem;
+			font-weight: bold;
+			position: relative;
+			display: inline-block;
+			&::after{
+				content: '';
+				display: block;
+				width: 200px;
+				height: 15px;
+				background-color: #fff;
+				position: absolute;
+				top: 50%;
+				right: -220px;
+				transform: translateY(-50%);
+			}
+		}
+	}
+}

@@ -1,6 +1,8 @@
 import React from 'react'
 import '../style/main.scss'
 import Section2 from '../components/main/Section2'
+import Section3 from '../components/main/Section3'
+import Section4 from '../components/main/Section4'
 
 function Main() {
 	return (
@@ -24,6 +26,12 @@ function Main() {
 			</section>
 			<section className='sec2_about'>
 				<Section2 />
+			</section>
+			<section className='sec3_work'>
+				<Section3 />
+			</section>
+			<section className='sec4_contact'>
+				<Section4 />
 			</section>
 		</>
 	)

@@ -1,0 +1,12 @@
+.sec3_work {
+	background-color: #fff;
+	padding: 160px 0;
+	.title {
+		>h2 {
+			color: #FD5001;
+			&::after {
+				background-color: #131313;
+			}
+		}
+	}
+}
