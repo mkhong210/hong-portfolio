@@ -56,9 +56,15 @@ body {
 		border-radius: 15px;
 		background-color: #ddd;
 		&:hover{
-			background-color: #FD5001;
+			background-color: #09477F;
 		}
 	}
+}
+button{
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	margin: 0;
 }
 ol, ul, li, a {
 	list-style: none;

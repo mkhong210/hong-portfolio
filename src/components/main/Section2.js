@@ -55,7 +55,7 @@ function Section2() {
 
 	return (
 		<>
-			<div className='title'>
+			<div className='title inner_t'>
 				<h2>ABOUT</h2>
 			</div>
 			<div className='cont_wrap inner_c'>

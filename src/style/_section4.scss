@@ -35,4 +35,46 @@
 			}
 		}
 	}
+	.cont_wrap{
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		.cont_item{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.icon_wrap{
+			width: 170px;
+			height: 170px;
+			border-radius: 50%;
+			background-color: #09477F;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img{
+				width: 60%;
+			}
+		}
+		.wrap_title{
+			display: flex;
+			align-items: center;
+			margin-top: 8px;
+			p{
+				font-size: 2.4rem;
+			}
+			button{
+				cursor: pointer;
+				img{
+					width: 60%;
+				}
+			}
+		}
+		.txt{
+			font-size: 3.2rem;
+			font-weight: bold;
+			margin-top: 16px;
+		}
+	}
 }

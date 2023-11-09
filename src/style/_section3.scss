@@ -9,4 +9,82 @@
 			}
 		}
 	}
+	.design{
+		transform: rotate(180deg);
+		h2{
+			color: #09477F;
+			&::after{
+				display: none;
+			}
+		}
+	}
+	p{
+		color: #131313;
+	}
+	.project_wrap,.study_wrap{
+		width: 100%;
+		border-top: #131313 solid 2px;
+		.inner{
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			.cont_wrap{
+				width: 100%;
+				flex: 1;
+			}
+		}
+		.sub_title{
+			width: 400px;
+			h3{
+				color: #FD5001;
+				font-size: 5rem;
+				font-weight: 500;
+				padding-top: 40px;
+			}
+		} 
+	}
+
+	.project_wrap{
+		.sub_title{
+		}
+		.cont_wrap{
+			border-left: #131313 solid 2px;
+			padding: 40px;
+			.swiper-wrapper{
+				width: 80%;
+			}
+			.swiper-slide.swiper_item{
+				background-color: #09477F;
+				width: 80%;
+				// max-width: 600px;
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+	.study_wrap{
+		.cont_wrap{
+			.study_item{
+				padding: 40px;
+				border-bottom: #131313 solid 2px;
+				.item_title{
+					width: 500px;
+					p{
+						display: inline-block;
+						font-size: 3rem;
+						&:first-child{padding-right: 20px;}
+					}
+				}
+				.item{
+					display: flex;
+					align-items: flex-start;
+					>p{
+						font-size: 2rem;
+					}
+				}
+			}
+
+		}
+	}
 }
