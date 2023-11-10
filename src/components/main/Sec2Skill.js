@@ -1,10 +1,56 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../../style/common.scss'
 
 function Sec2Skill() {
+	const [state0, setState0] = useState(true);
+	const [state1, setState1] = useState(false);
+	const [state2, setState2] = useState(false);
+	useEffect(()=>{
+		const skillWrap = document.querySelectorAll('.skill');
+		// console.log(skillWrap)
+		skillWrap.forEach(function(item, k){
+			item.addEventListener('click',function(v){
+				console.log(item, k)
+				// item.ClassList.add(skillActive);
+				// console.log(`state`+`${k}`)
+				// let status = `setState`+`${k}`;
+				// console.log(status);
+				// status(true);
+				// k = num;
+				// let statusFalse = `setState`+`${num}`;
+				// statusFalse(false);
+				// console.log(k)
+
+				const classActive=item.classList.contains('active')
+				if(k===0){
+					console.log(classActive)
+					if(!classActive){
+						setState0(true);
+					} else {
+						setState0(false);
+					}
+				} else if(k===1){
+					console.log(classActive)
+					if(!classActive){
+						setState1(true);
+					} else {
+						setState1(false);
+					}
+				} else {
+					console.log(classActive)
+					if(!classActive){
+						setState2(true);
+					} else {
+						setState2(false);
+					}
+				}
+			})
+		})
+	},[])
+	
 	return (
 		<>
-			<div className='skill skill01 active'>
+			<div className={`skill skill01`+ `${state0? ' active' : ''}`}>
 				<div className='skill_title'>
 					<p>DEVELOP</p>
 					<p>01</p>
@@ -42,7 +88,7 @@ function Sec2Skill() {
 					</ul>
 				</div>
 			</div>
-			<div className='skill skill02'>
+			<div className={`skill skill02`+ `${state1? ' active' : ''}`}>
 				<div className='skill_title'>
 					<p>GRAPHIC</p>
 					<p>02</p>
@@ -72,7 +118,7 @@ function Sec2Skill() {
 					</ul>
 				</div>
 			</div>
-			<div className='skill skill03 '>
+			<div className={`skill skill03`+ `${state2? ' active' : ''}`}>
 				<div className='skill_title'>
 					<p>ETC</p>
 					<p>03</p>

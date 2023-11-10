@@ -69,8 +69,11 @@
 			font-size: 2.6rem;
 			font-weight: 300;
 			margin-bottom: 180px;
-			p:not(:last-child){
-				margin-bottom: 40px;
+			p{
+				line-height: 1.4;
+				&:not(:last-child){
+					margin-bottom: 40px;
+				}
 			}
 		}
 	}
@@ -82,6 +85,9 @@
 	cursor: pointer;
 	border-bottom: solid 1px #fff;
 	margin-bottom: 4px;
+	max-height: 70px;
+	overflow: hidden;
+	transition: max-height 0.5s ease-in-out, background-color 0.3s;
 	&:hover{
 		.skill_title p:first-child{
 			padding-left: 10px;
@@ -89,14 +95,16 @@
 	}
 	&.active{
 		background-color: #fff;
+		// height: auto;
+		max-height: 600px;
 		.skill_title{
 			padding: 16px 20px;
 			p{color: #FD5001;}
 		}
 		.skill_desc{
-			display: block;
-			padding: 20px;
-			.skill_item{
+			max-height: 100%;
+			opacity: 1;
+		.skill_item{
 				p{
 					color: #131313;
 				}
@@ -108,15 +116,22 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 16px 0;
+		transition: padding 0.5s;
 		p{
-			transition: all 0.3s;
+			transition: padding 0.3s;
 			font-size: 3.2rem;
 			font-weight: bold;
 		}
 	}
 	.skill_desc{
-		// height: 0;
-		display: none;
+		padding: 20px;
+		// max-height: 0;
+		// display: none;
+		overflow: hidden;
+		// opacity: 0;
+		// transition: height 0.5s opacity 0.5s;
+		// transition: max-height 0.5s ease, opacity 0.5s;
+		// transition: opacity 0.3s;
 		.skill_item{
 			display: flex;
 			justify-content: space-between;

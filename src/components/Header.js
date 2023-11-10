@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import '../style/common.scss'
+import { Link } from 'react-router-dom';
 
 function Header() {
 	// header scroll down 
@@ -51,16 +52,26 @@ function Header() {
 
 	return (
 		<header>
-			<div className='inner'>
+			<div className='header_wrap inner'>
 				<div className='logo'>
-					<img src='/asset/Hong_logo.svg' alt='hong 로고' />
+					<Link to='/'>
+						<img src='/asset/Hong_logo.svg' alt='hong 로고' />
+					</Link>
 				</div>
 				<div className='menu'>
 					<ul>
-						<li className='header_home'>Home</li>
-						<li className='header_about'>About</li>
-						<li className='header_work'>Work</li>
-						<li className='header_contact'>Contact</li>
+						<li className='header_home'>
+							<Link to='/'>Home</Link>
+						</li>
+						<li className='header_about'>
+							<Link to='/'>About</Link>
+						</li>
+						<li className='header_work'>
+							<Link to='/'>Work</Link>
+						</li>
+						<li className='header_contact'>
+							<Link to='/'>Contact</Link>
+						</li>
 					</ul>
 				</div>
 			</div>
