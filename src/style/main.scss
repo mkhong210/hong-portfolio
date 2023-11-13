@@ -1,14 +1,12 @@
 // section 1 
-// $header_h: 100px;
 .sec1_home {
 	width: 100%;
-	// height: calc(100vh - $header_h);
 	height: 100vh;
 	position: relative;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	&::after{
+	&::after {
 		content: '';
 		display: inline-block;
 		position: absolute;
@@ -21,18 +19,20 @@
 		z-index: -1;
 		transform: translate(-50%, -50%);
 	}
+
 	.title_wrap {
 		// width: 100%;
 		// height: 100%;
 		// display: flex;
 		// align-items: center;
-		p{
+		p {
 			font-size: 6rem;
 		}
-		h1{
+		h1 {
 			font-size: 10rem;
 		}
 	}
+
 	.sec1_btm {
 		position: absolute;
 		bottom: 60px;
@@ -44,11 +44,11 @@
 			align-items: flex-end;
 		}
 		.name {
-			p{
+			p {
 				font-size: 4.8rem;
 				font-weight: bold;
 				position: relative;
-				&::after{
+				&::after {
 					content: '';
 					width: 40px;
 					height: 40px;
@@ -62,7 +62,7 @@
 				}
 			}
 		}
-		.scroll_down{
+		.scroll_down {
 			width: 100px;
 			height: 100px;
 			border: solid 2px #fff;
@@ -71,28 +71,28 @@
 			justify-content: center;
 			align-items: center;
 			flex-direction: column;
-			p{
+			p {
 				text-align: center;
 				font-size: 2rem;
 				padding-bottom: 8px;
 			}
-			img{
+			img {
 				width: 26px;
 			}
 		}
 	}
 }
 
-.title{
+.title {
 	// transform: translateX(-140px);
-	>h2{
+	>h2 {
 		transform: translateX(-60px);
 		font-size: 18rem;
 		font-weight: bold;
 		position: relative;
 		display: inline-block;
 		margin-bottom: 100px;
-		&::after{
+		&::after {
 			content: '';
 			width: 180px;
 			height: 180px;
@@ -110,3 +110,65 @@
 @import './section2';
 @import './section3';
 @import './section4';
+
+// 1280px
+@media screen and (max-width:1280px) {}
+
+// 1280px
+
+// 1024px
+@media screen and (max-width:1024px) {
+	// section 1 
+	.sec1_home {
+		&::after {
+			width: 380px;
+			height: 380px;
+		}
+		.title_wrap {
+			p {
+				font-size: 4rem;
+			}
+			h1 {
+				font-size: 8rem;
+			}
+		}
+		.sec1_btm {
+			bottom: 30px;
+			.scroll_down {
+				width: 80px;
+				height: 80px;
+				p {
+					font-size: 1.8rem;
+				}
+			}
+		}
+	}
+
+	.title {
+		>h2 {
+			transform: translateX(-40px);
+			font-size: 14rem;
+			margin-bottom: 80px;
+			&::after {
+				content: '';
+				width: 140px;
+				height: 140px;
+			}
+		}
+	}
+}// 1024px
+
+// 991px
+@media screen and (max-width:991px) {
+
+} // 991px
+
+// 768px
+@media screen and (max-width:768px) {
+
+} // 768px
+
+// 480px
+@media screen and (max-width:480px) {
+
+} // 480px

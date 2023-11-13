@@ -8,7 +8,7 @@ function Main() {
 	return (
 		<>
 			<section className='sec1_home inner'>
-				<div className='title_wrap inner'>
+				<div className='title_wrap'>
 					<p className='lang_en'>Portfolio</p>
 					<h1 className='lang_en'>FrontEnd Developer</h1>
 				</div>

@@ -30,12 +30,9 @@
 			align-items: flex-start;
 			.cont_wrap{
 				width: 72%;
-				// width: 1000px;
-				// flex: 1;
 			}
 		}
 		.sub_title{
-			// width: 400px;
 			width: 28%;
 			h3{
 				color: #FD5001;
@@ -109,7 +106,7 @@
 				padding: 40px;
 				border-bottom: #131313 solid 2px;
 				.item_title{
-					width: 500px;
+					width: 30%;
 					p{
 						display: inline-block;
 						font-size: 3rem;
@@ -121,10 +118,148 @@
 					align-items: flex-start;
 					>p{
 						font-size: 2rem;
+						width: 70%;
+						margin-left: 20px;
 					}
 				}
 			}
-
 		}
 	}
 }
+
+// 1280px
+@media screen and (max-width:1280px) {
+	.sec3_work {
+		.project_wrap{
+			.cont_wrap{
+				padding: 20px;
+			}
+		}
+		.study_wrap{
+			.cont_wrap{
+				.study_item{
+					padding: 20px;
+				}
+			}
+		}
+	}
+} // 1280px
+
+// 1024px
+@media screen and (max-width:1024px) {
+	.sec3_work {
+		padding: 120px 0;
+		.project_wrap,.study_wrap{
+			width: 100%;
+			.inner{
+				flex-direction: column;
+				.cont_wrap{
+					width: 100%;
+				}
+			}
+			.sub_title{
+				width: 28%;
+				h3{
+					color: #FD5001;
+					font-size: 5rem;
+					font-weight: 500;
+					padding-top: 40px;
+				}
+			} 
+		}
+	
+		.project_wrap{
+			.cont_wrap{
+				border-left: none;
+				padding: 30px 0;
+				.mySwiper{
+					width: 100%;
+					// 여기부터
+					.swiper-button-prev{
+						width: 60px;
+						height: 60px;
+						border-radius: 50px;
+						border: solid #131313 2px;
+						top: 36px;
+						bottom: auto;
+						left: 30px;
+						&::after{
+							content:url('../../public/asset/ICON_left_arrow.svg');
+							// width: 30px;
+						}
+					}
+					.swiper-button-next {
+						width: 60px;
+						height: 60px;
+						border-radius: 50px;
+						border: solid #131313 2px;
+						top: 36px;
+						bottom: auto;
+						left: 150px;
+						&::after{
+							content:url('../../public/asset/ICON_right_arrow.svg');
+							// width: 30px;
+						}
+					}
+				}
+				.swiper-wrapper{
+					// width: 80%;
+				}
+				.swiper-slide.swiper_item{
+					// background-color: #09477F;
+					// width: 80%;
+					// max-width: 600px;
+					p{
+						font-size: 2rem;
+						margin-top: 20px;
+						font-weight: bold;
+					}
+					img{
+						width: 100%;
+						border: #FD5001 solid 10px;
+					}
+				}
+			}
+		}
+		.study_wrap{
+			.cont_wrap{
+				.study_item{
+					padding: 40px;
+					border-bottom: #131313 solid 2px;
+					.item_title{
+						width: 30%;
+						p{
+							display: inline-block;
+							font-size: 3rem;
+							&:first-child{padding-right: 20px;}
+						}
+					}
+					.item{
+						display: flex;
+						align-items: flex-start;
+						>p{
+							font-size: 2rem;
+							width: 70%;
+							margin-left: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+} // 1024px
+
+// 991px
+@media screen and (max-width:991px) {
+	
+} // 991px
+
+// 768px
+@media screen and (max-width:768px) {
+	
+} // 768px
+
+// 480px
+@media screen and (max-width:480px) {
+	
+} // 480px

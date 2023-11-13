@@ -6,11 +6,6 @@
 //   -webkit-font-smoothing: antialiased;
 //   -moz-osx-font-smoothing: grayscale;
 // }
-
-// code {
-//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-//     monospace;
-// }
 .inner {
 	width: 100%;
 	max-width: 1720px;
@@ -20,7 +15,7 @@
 .inner_c {
 	width: 100%;
 	max-width: 1640px;
-	padding: 0 20px;
+	padding: 0 40px;
 	margin: 0 auto;
 }
 .inner_t {
@@ -29,3 +24,28 @@
 	// padding: 0 20px;
 	margin: 0 auto;
 }
+
+// 1280px
+@media screen and (max-width:1280px) {
+	
+} // 1280px
+
+// 1024px
+@media screen and (max-width:1024px) {
+	
+} // 1024px
+
+// 991px
+@media screen and (max-width:991px) {
+	
+} // 991px
+
+// 768px
+@media screen and (max-width:768px) {
+	
+} // 768px
+
+// 480px
+@media screen and (max-width:480px) {
+	
+} // 480px
