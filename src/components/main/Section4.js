@@ -29,7 +29,7 @@ function Section4() {
 							<img src='/asset/ICON_copy.png' alt='copy 아이콘' />
 						</button>
 					</div>
-					<p className='txt'>010-</p>
+					<p className='txt'>010-9033-0286</p>
 					{/* <p className='txt'>010-9033-0286</p> */}
 				</div>
 				<div className='cont_item'>
@@ -42,7 +42,7 @@ function Section4() {
 							<img src='/asset/ICON_copy.png' alt='copy 아이콘' />
 						</button>
 					</div>
-					<p className='txt'>@naver.com</p>
+					<p className='txt'>ghdalsrud0210 @naver.com</p>
 					{/* <p className='txt'>ghdalsrud0210@naver.com</p> */}
 				</div>
 			</div>

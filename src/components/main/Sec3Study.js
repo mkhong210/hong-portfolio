@@ -19,6 +19,16 @@ function Sec3Study() {
 							<p>기존의 smdecor 사이트를 클론 프로젝트로 똑같이 구현하는 과정을 진행하였습니다.기존의 smdecor 사이트를 클론 프로젝트로 똑같이 구현하는 과정을 진행하였습니다.</p>
 						</a>
 					</li>
+					<li className='study_item'>
+						{/* <Link to='/'> */}
+						<a href='javascrip:;' className='item'>
+							<div className='item_title'>
+								<p>02</p>
+								<p>Todo List</p>
+							</div>
+							<p>기존의 smdecor 사이트를 클론 프로젝트로 똑같이 구현하는 과정을 진행하였습니다.기존의 smdecor 사이트를 클론 프로젝트로 똑같이 구현하는 과정을 진행하였습니다.</p>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>

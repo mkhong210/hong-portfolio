@@ -1,7 +1,7 @@
 .sec4_contact {
 	background-color: #FD5001;
 	padding: 100px 0;
-	height: 100vh;
+	min-height: 100vh;
 	.title {
 		position: relative;
 		h2 {
@@ -44,6 +44,8 @@
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+			text-align: center;
+			width: calc(80%/2);
 		}
 		.icon_wrap{
 			width: 120px;
@@ -86,7 +88,41 @@
 
 // 1024px
 @media screen and (max-width:1024px) {
-	
+	.title {
+		>h2 {
+			transform: translateX(-40px);
+			font-size: 14rem;
+			margin-bottom: 80px;
+			&::after {
+				content: '';
+				width: 140px;
+				height: 140px;
+			}
+		}
+	}
+	.sec4_contact {
+		padding: 100px 0;
+		position: relative;
+		.title {
+			position: static;
+			h2 {
+				&::after {
+					// background-color: #131313;
+					display: none;
+				}
+			}
+		}
+		.me{
+			display: none;
+			top: auto;
+			bottom: 0;
+			right: 30px;
+			transform: rotate(0);
+			>h2{
+				font-size: 14rem;
+			}
+		}
+	}
 } // 1024px
 
 // 991px

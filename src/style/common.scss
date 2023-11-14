@@ -35,7 +35,10 @@ header {
 		align-items: center;
 		border-bottom: #fff solid 2px;
 	}
-
+	.logo a{
+		height: auto;
+    display: inline-block;
+	}
 	.menu ul {
 		display: flex;
 		gap: 20px;
@@ -64,7 +67,16 @@ header {
 
 // 768px
 @media screen and (max-width:768px) {
-	
+	// header
+	header {
+		.header_wrap {
+			justify-content: center;
+		}
+
+		.menu {
+			display: none;
+		}
+	}
 } // 768px
 
 // 480px
