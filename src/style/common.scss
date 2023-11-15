@@ -35,10 +35,16 @@ header {
 		align-items: center;
 		border-bottom: #fff solid 2px;
 	}
-	.logo a{
-		height: auto;
-    display: inline-block;
-	}
+	.logo{
+		a{
+			width: 125px;
+			height: auto;
+			display: inline-block;
+		}
+		img{
+			width: 100%;
+		}
+	} 
 	.menu ul {
 		display: flex;
 		gap: 20px;
@@ -69,10 +75,17 @@ header {
 @media screen and (max-width:768px) {
 	// header
 	header {
+		height: 80px;
 		.header_wrap {
 			justify-content: center;
 		}
-
+		.logo{
+			a{
+				width: 90px;
+				height: auto;
+				display: inline-block;
+			}
+		} 
 		.menu {
 			display: none;
 		}

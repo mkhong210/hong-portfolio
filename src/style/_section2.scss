@@ -47,7 +47,10 @@
 				&:first-child{
 					text-align: left;
 					&::before{
-						content: url('../../public/asset/ICON_quotes_left.png');
+						content: '';
+						width: 46px;
+						height: 100%;
+						background: url('../../public/asset/ICON_quotes_left.png') no-repeat center /100%;
 						position: absolute;
 						left: -50px;
 						top: -20px;
@@ -56,7 +59,10 @@
 				&:last-child{
 					text-align: right;
 					&::after{
-						content: url('../../public/asset/ICON_quotes_right.png');
+						content: '';
+						width: 46px;
+						height: 100%;
+						background: url('../../public/asset/ICON_quotes_right.png') no-repeat center /100%;
 						position: absolute;
 						right: -50px;
 						top: -20px;
@@ -111,7 +117,7 @@
 	&.active{
 		background-color: #fff;
 		// height: auto;
-		max-height: 600px;
+		max-height: 700px;
 		.skill_title{
 			padding: 16px 20px;
 			p{color: #FD5001;}
@@ -159,6 +165,7 @@
 				position: relative;
 				&:first-child{
 					padding-left: 16px;
+					font-weight: 500;
 					&::before{
 						content: '';
 						display: inline-block;
@@ -272,7 +279,7 @@
 @media screen and (max-width:1024px) {
 	// section2
 	.sec2_about{
-		padding: 120px 0 ;
+		padding: 100px 0 ;
 		.cont_wrap{
 			justify-content: normal;
 			align-items: center;
@@ -308,7 +315,69 @@
 
 // 768px
 @media screen and (max-width:768px) {
-	
+	// section2
+	.sec2_about{
+		padding: 120px 0 ;
+		.cont_wrap{
+			.img_wrap{
+				width: 60%;
+			}
+			.text_wrap{
+				min-width: auto;
+				width: 100%;
+			}
+			.sub_title{
+				padding-left: 30px;
+				padding-right: 30px;
+				margin-bottom: 80px;
+				p{
+					font-size: 3.5rem;
+					&:first-child{
+						&::before{
+							width: 24px;
+							left: -28px;
+						}
+					}
+					&:last-child{
+						&::after{
+							width: 24px;
+							right: -28px;
+						}
+					}
+				}
+				.script_text{
+					font-size: 4rem;
+				}
+			}
+			.introduce{
+				margin-bottom: 120px;
+			}
+		}
+	}
+
+	// section2 skill
+	.skill{
+		&:hover{
+			.skill_title p:first-child{
+				padding-left: 0;
+			}
+		}
+		.skill_desc{
+			padding-top: 0;
+			.skill_item{
+				display: flex;;
+				justify-content: center;
+				align-items: flex-start;
+				flex-direction: column;
+				gap: 8px;
+				p{
+					&:last-child{
+						padding-left: 16px;
+					}
+				}
+			}
+		}
+	}
 } // 768px
 
 // 480px

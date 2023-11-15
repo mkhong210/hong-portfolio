@@ -10,7 +10,7 @@ function Sec2Skill() {
 		// console.log(skillWrap)
 		skillWrap.forEach(function(item, k){
 			item.addEventListener('click',function(v){
-				console.log(item, k)
+				// console.log(item, k)
 				// item.ClassList.add(skillActive);
 				// console.log(`state`+`${k}`)
 				// let status = `setState`+`${k}`;

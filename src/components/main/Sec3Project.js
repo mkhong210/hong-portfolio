@@ -18,7 +18,7 @@ function Sec3Project() {
 		setData(projectData)
 		setLoading(false);
 	}, [])
-	console.log(data.project);
+	// console.log(data.project);
 
 	if(loading){
 		return(<p>로딩중</p>)
