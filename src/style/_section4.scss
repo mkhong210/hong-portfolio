@@ -7,7 +7,7 @@
 		position: relative;
 		h2 {
 			color: #fff;
-			margin-bottom: 80px;
+			// margin-bottom: 80px;
 			&::after {
 				// background-color: #131313;
 				display: none;
@@ -110,7 +110,6 @@
 	}
 	.sec4_contact {
 		.title {
-			position: static;
 			h2 {
 				&::after {
 					// background-color: #131313;
@@ -145,7 +144,7 @@
 			flex-direction: column;
 			.cont_item{
 				width: 100%;
-				margin: 8vh 0;
+				margin: 5vh 0;
 			}
 			.icon_wrap{
 				width: 100px;
@@ -154,9 +153,6 @@
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				img{
-					width: 60%;
-				}
 			}
 			.wrap_title{
 				display: flex;
@@ -167,9 +163,6 @@
 				}
 				button{
 					cursor: pointer;
-					img{
-						width: 60%;
-					}
 				}
 			}
 			.txt{
@@ -183,5 +176,13 @@
 
 // 480px
 @media screen and (max-width:480px) {
+	.sec4_contact {
+		// padding: 60px 0;
+		.title {
+			h2 {
+				font-size: 9rem;
+			}
+		}
+	}
 	
 } // 480px

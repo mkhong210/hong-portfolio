@@ -15,8 +15,6 @@ function DetailProject() {
 		console.log(id, filterData);
 	}, [])
 
-	const color='#6DAD9C'
-
 	if (loading) {
 		return (<p>로딩중</p>)
 	}
@@ -36,13 +34,16 @@ function DetailProject() {
 						</div>
 						<p className='sub_title'>{project.sub_title}</p>
 					</div>
-					<div className='inner'>
+					<div className='inner img_wrap'>
 						<img src={project.image} alt={`${project.title2} 이미지`} />
 					</div>
 					<div className='about_wrap inner'>
 						<div className='about_title'>
-							<p className='lang_en'>About<br />the Project</p>
-							<button>보러가기</button>
+							<p className='lang_en'>About <br />the Project</p>
+							<div className='look_wrap'>
+								<button className='look'>Go to Site</button>
+								<button className='look'>Go to Git Hub</button>
+							</div>
 						</div>
 						<div className='about_detail'>
 							<div className='about_plan'>

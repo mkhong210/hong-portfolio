@@ -32,7 +32,7 @@ function Section4() {
 					{/* <p className='txt'>010-</p> */}
 					<p className='txt'>010-9033-0286</p>
 				</div>
-				<div className='cont_item'>
+				<div className='cont_item inner'>
 					<div className='icon_wrap'>
 						<img src='/asset/ICON_mail.png' alt='메일 아이콘' />
 					</div>

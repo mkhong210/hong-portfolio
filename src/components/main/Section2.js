@@ -17,7 +17,7 @@ function Section2() {
 		// 타이핑 효과
 		const typing = async () => {
 			const letter = letters[num].split("");
-			console.log(letter)
+			// console.log(letter)
 			while (letter.length) {
 				await wait(speed);
 				text.innerHTML += letter.shift();
@@ -64,7 +64,7 @@ function Section2() {
 				</div>
 				<div className='text_wrap'>
 					<div className='sub_title'>
-						<p>저는 <span className='script_text'></span></p>
+						<p>저는<br/><span className='script_text'></span></p>
 						<p>개발자 홍민경입니다.</p>
 					</div>
 					<div className='introduce'>
