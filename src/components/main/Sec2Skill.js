@@ -63,7 +63,7 @@ function Sec2Skill() {
 						</li>
 						<li className='skill_item'>
 							<p>CSS</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p>시멘틱 태그 활용, css 요소를 이해하고 자유로운 적용 가능</p>
 						</li>
 						<li className='skill_item'>
 							<p>SCSS</p>
@@ -71,11 +71,11 @@ function Sec2Skill() {
 						</li>
 						<li className='skill_item'>
 							<p>JAVASCRIPT</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p>기본 구문과 구조, DOM, 애니메이션 등 작업 가능</p>
 						</li>
 						<li className='skill_item'>
 							<p>JQUERY</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p>오픈소스 활용 및 간단한 기능 구현 가능</p>
 						</li>
 						<li className='skill_item'>
 							<p>REACT</p>
@@ -97,23 +97,23 @@ function Sec2Skill() {
 					<ul>
 						<li className='skill_item'>
 							<p>Photoshop</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p>클리핑마스크, 레이어마스크, 필터 등 자유롭게 사용 가능</p>
 						</li>
 						<li className='skill_item'>
 							<p>Illustration</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p>프리드로잉, 벡터 이미지 제작,디자인 및 시안 제작 가능</p>
 						</li>
 						<li className='skill_item'>
 							<p>Xd</p>
 							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
 						</li>
 						<li className='skill_item'>
-							<p>Premiere</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p>Premiere Pro</p>
+							<p>컷 편집, 효과, 자막 등의 작업 가능</p>
 						</li>
 						<li className='skill_item'>
 							<p>After Effects</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p>컷 편집, 효과, 3D 등의 작업 가능</p>
 						</li>
 					</ul>
 				</div>
@@ -131,7 +131,7 @@ function Sec2Skill() {
 						</li>
 						<li className='skill_item'>
 							<p>Figma</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p>디자인 및 시안 제작, 프로토타입 구현 가능</p>
 						</li>
 						<li className='skill_item'>
 							<p>Notion</p>

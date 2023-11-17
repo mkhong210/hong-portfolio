@@ -64,7 +64,8 @@
 				margin-top: 30px;
 				color: #fff;
 				padding: 16px 40px;
-				background-color: #09477F;
+				background-color: transparent;
+				border: solid 2px #fff;
 				border-radius: 50px;
 				font-size: 2rem;
 				font-weight: bold;
@@ -215,7 +216,7 @@
 				.look{
 					margin-top: 30px;
 					color: #fff;
-					padding: 16px 40px;
+					padding: 12px 30px;
 					font-size: 2rem;
 				}
 			}
@@ -240,7 +241,7 @@
 				}
 				.color{
 					>p{
-						padding: 12px 16px;
+						padding: 10px 16px;
 					}
 				}
 			}
@@ -251,7 +252,7 @@
 // 480px
 @media screen and (max-width:480px) {
 	.detail_main {
-		// margin-top: 30px;
+		margin-top: 60px;
 		.title {
 			>h2 {
 				font-size: 5rem;
@@ -288,19 +289,20 @@
 			margin: 40px auto;
 			.about_title{
 				>p{
-					font-size: 4rem;
+					font-size: 3.2rem;
 				}
 				.look_wrap{
 					gap: 10px;
 				}
 				.look{
+					font-size: 1.8rem;
 					margin-top: 20px;
-					padding: 14px 20px;
+					padding: 8px 20px;
 				}
 			}
 			.about_detail{
 				p{
-					font-size: 2rem;
+					font-size: 1.8rem;
 				}
 				>div:not(:last-child){
 					// margin-bottom: 40px;

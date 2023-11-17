@@ -94,5 +94,13 @@ header {
 
 // 480px
 @media screen and (max-width:480px) {
-	
+	// header
+	header{
+		height: 60px;
+		.logo{
+			a{
+				width: 70px;
+			}
+		}
+	}
 } // 480px
