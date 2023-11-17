@@ -181,6 +181,34 @@
 		.title {
 			h2 {
 				font-size: 9rem;
+				margin-bottom: 40px;
+			}
+		}
+		.cont_wrap{
+			.cont_item{
+				margin: 4vh 0;
+			}
+			.icon_wrap{
+				width: 70px;
+				height: 70px;
+				img{
+					width: 50%;
+				}
+			}
+			.wrap_title{
+				margin-top: 6px;
+				p{
+					font-size: 2rem;
+				}
+				button{
+					img{
+						width: 50%;
+					}
+				}
+			}
+			.txt{
+				font-size: 2.6rem;
+				margin-top: 10px;
 			}
 		}
 	}

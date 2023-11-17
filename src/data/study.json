@@ -1,0 +1,16 @@
+{
+	"study": [
+		{
+			"id": "study-1",
+			"title": "클론 프로젝트",
+			"about_desc": "기존의 smdecor 사이트를 클론 프로젝트로 똑같이 구현하는 과정을 진행하였습니다.",
+			"giturl": "https://github.com/mkhong210/clone"
+		},
+		{
+			"id": "study-2",
+			"title": "Todo List",
+			"about_desc": "가장 기본적인 스크립트 구현이라고 생각되는 Todo 리스트 구현과 날씨 API를 사용한 날씨, 간단한 로그인, 시계를 제작하였습니다.",
+			"giturl": "https://github.com/mkhong210/todo-study"
+		}
+	]
+}
