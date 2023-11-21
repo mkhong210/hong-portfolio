@@ -64,7 +64,7 @@ function Section2() {
 				</div>
 				<div className='text_wrap'>
 					<div className='sub_title'>
-						<p>저는<br/><span className='script_text'></span></p>
+						<p>저는 <br/><span className='script_text'></span></p>
 						<p>개발자 홍민경입니다.</p>
 					</div>
 					<div className='introduce'>

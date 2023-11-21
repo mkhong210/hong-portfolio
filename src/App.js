@@ -5,19 +5,22 @@ import Main from './pages/Main';
 import './style/common.scss'
 import DetailProject from './pages/DetailProject';
 import DetailStudy from './pages/DetailStudy';
+import Context from './Context';
 
 function App() {
 	return (
-		<BrowserRouter >
-			<Header />
-			<main className='main'>
-				<Routes>
-					<Route path='/' element={<Main />} />
-					<Route path='/detail/project/:id' element={<DetailProject />} />
-					<Route path='/detail/study/:id' element={<DetailStudy />} />
-				</Routes>
-			</main>
-		</BrowserRouter>
+		<Context>
+			<BrowserRouter >
+				<Header />
+				<main className='main'>
+					<Routes>
+						<Route path='/' element={<Main />} />
+						<Route path='/detail/project/:id' element={<DetailProject />} />
+						<Route path='/detail/study/:id' element={<DetailStudy />} />
+					</Routes>
+				</main>
+			</BrowserRouter>
+		</Context>
 	);
 }
 

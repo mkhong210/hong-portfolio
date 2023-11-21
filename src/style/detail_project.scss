@@ -18,7 +18,7 @@
 	.sub_title_wrap{
 		display: flex;
 		justify-content: space-between;
-		align-items: flex-end;
+		align-items: flex-start;
 		margin-bottom: 50px;
 		.sub_title{
 			font-size: 3.2rem;
@@ -29,7 +29,7 @@
 		display: flex;
 		gap: 20px;
 		flex-wrap: wrap;
-		justify-content: flex-end;
+		justify-content: flex-start;
 		.tag_item{
 			background-color: #09477F;
 			border-radius: 30px;
@@ -69,10 +69,11 @@
 				border-radius: 50px;
 				font-size: 2rem;
 				font-weight: bold;
+				text-align: center;
 				cursor: pointer;
 			}
 		}
-		.about_detail{
+		.about_detail, .issue_detail{
 			width: 65%;
 			p{
 				font-size: 3rem;
@@ -127,6 +128,23 @@
 				font-size: 2.4rem;
 			}
 		}
+		.issue_wrap{
+			.issue_item{
+				margin-bottom: 32px;
+				p{
+					margin-bottom: 16px;
+				}
+			}
+			h3{
+				display: inline-block;
+				padding: 8px 20px;
+				border-radius: 50px;
+				// border: #fff solid 2px;
+				font-size: 2rem;
+				background-color: #09487fab;
+				margin-bottom: 8px;
+			}
+		}
 	}
 }
 
@@ -140,8 +158,12 @@
 			}
 		}
 		.sub_title_wrap{
-			flex-direction: column;
+			flex-direction: column-reverse;
 			gap: 20px;
+			align-items: flex-end;
+		}
+		.tag_wrap{
+			justify-content: flex-end;
 		}
 		
 		.about_wrap{
@@ -157,7 +179,7 @@
 					margin-top: 20px;
 				}
 			}
-			.about_detail{
+			.about_detail, .issue_detail{
 				width: 100%;
 			}
 		}
@@ -220,7 +242,7 @@
 					font-size: 2rem;
 				}
 			}
-			.about_detail{
+			.about_detail, .issue_detail{
 				p{
 					font-size: 2.5rem;
 				}
@@ -300,7 +322,7 @@
 					padding: 8px 20px;
 				}
 			}
-			.about_detail{
+			.about_detail, .issue_detail{
 				p{
 					font-size: 1.8rem;
 				}
@@ -316,6 +338,18 @@
 					gap: 8px;
 					flex-wrap: nowrap;
 					overflow-x: scroll;
+				}
+			}
+			.issue_wrap{
+				.issue_item{
+					margin-bottom: 16px;
+					p{
+						margin-bottom: 12px;
+					}
+				}
+				h3{
+					padding: 6px 12px;
+					font-size: 1.4rem;
 				}
 			}
 		}

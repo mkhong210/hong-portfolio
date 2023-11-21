@@ -25,8 +25,8 @@ function Sec3Study() {
 				{
 					<ul>
 						{ data.study && data.study.map((obj, k) => (
-							<li className='study_item'>
-								<Link to={obj.giturl} className='item'>
+							<li className='study_item' key={k}>
+								<Link to={obj.giturl} className='item' target='_blank'>
 									<div className='item_title'>
 										<p>0{k+1}</p>
 										<p>{obj.title}</p>
