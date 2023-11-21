@@ -59,7 +59,7 @@ function Sec2Skill() {
 					<ul>
 						<li className='skill_item'>
 							<p>HTML</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p>웹 표준성을 중시하여 단단한 마크업 가능</p>
 						</li>
 						<li className='skill_item'>
 							<p>CSS</p>

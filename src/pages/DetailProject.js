@@ -1,19 +1,27 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import '../style/detail_project.scss'
 import projectData from '../data/project.json'
+import { MyContext } from '../Context';
 
 function DetailProject() {
+	const { headSatus, SetHeadSatus } = useContext(MyContext) || {};
 	const [project, setProject] = useState(projectData);
 	const [loading, setLoading] = useState(true);
 	const { id } = useParams();
+
 
 	useEffect(() => {
 		const filterData = projectData.project.find(item => item.id === id);
 		setProject(filterData);
 		setLoading(false);
-		console.log(id, filterData);
+		// console.log(id, filterData);
 	}, [])
+
+	useEffect(() => {
+		SetHeadSatus(false);
+		console.log(headSatus);
+	}, [headSatus])
 
 	if (loading) {
 		return (<p>로딩중</p>)
@@ -41,15 +49,17 @@ function DetailProject() {
 						<div className='about_title'>
 							<p className='lang_en'>About <br />the Project</p>
 							<div className='look_wrap'>
-								<button className='look'>Go to Site</button>
-								<button className='look'>Go to Git Hub</button>
+								<a href={project.site} className='look'>Go to Site</a>
+								<a href={project.giturl} className='look'>Go to Git Hub</a>
 							</div>
 						</div>
 						<div className='about_detail'>
 							<div className='about_plan'>
 								<p className='plan_desc'>{project.about_plan_1}</p>
-								<p className='plan_desc'>{project.about_plan_2}</p>
-								{project.about_plan_3&&
+								{project.about_plan_2 &&
+									<p className='plan_desc'>{project.about_plan_2}</p>
+								}
+								{project.about_plan_3 &&
 									<p className='plan_desc'>{project.about_plan_3}</p>
 								}
 							</div>
@@ -61,9 +71,9 @@ function DetailProject() {
 								<p className='subdesc_title'>메인 색상</p>
 								{/* <p className='date'>2023.10 / 3주간</p> */}
 								<div className='color_wrap'>
-									{project.color && project.color.map((item,k)=>(
-										<div style={{ backgroundColor: `${item}` }}className='color' key={k}><p>#6DAD9C</p></div>
-										))
+									{project.color && project.color.map((item, k) => (
+										<div style={{ backgroundColor: `${item}` }} className='color' key={k}><p>#6DAD9C</p></div>
+									))
 									}
 								</div>
 							</div>
@@ -71,10 +81,38 @@ function DetailProject() {
 								<p className='subdesc_title'>기여도</p>
 								{/* <p className='date'>2023.10 / 3주간</p> */}
 								<div className='contri_wrap'>
-									{project.contribution && project.contribution.map((item,k)=>(
+									{project.contribution && project.contribution.map((item, k) => (
 										<p key={k}>{item}</p>
-										))
+									))
 									}
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className='about_wrap inner'>
+						<div className='about_title'>
+							<p className='lang_en'>Issue <br />& Review</p>
+						</div>
+						<div className='issue_detail'>
+							<div className='issue_wrap'>
+								<p className='subdesc_title lang_en'>Trouble Issue</p>
+								<div className='issue_item'>
+									<h3>문제점</h3>
+									<p className='plan_desc'>{project.trouble_1}</p>
+									<h3>해결방안</h3>
+									<p className='plan_desc'>{project.answer_1}</p>
+								</div>
+								<div className='issue_item'>
+									<h3>문제점</h3>
+									<p className='plan_desc'>{project.trouble_2}</p>
+									<h3>해결방안</h3>
+									<p className='plan_desc'>{project.answer_2}</p>
+								</div>
+							</div>
+							<div className='review_wrap'>
+								<p className='subdesc_title lang_en'>REVIEW</p>
+								<div className='review_item'>
+									<p className='plan_desc'>{project.review}</p>
 								</div>
 							</div>
 						</div>

@@ -54,6 +54,14 @@ header {
 			cursor: pointer;
 		}
 	}
+	&.headerstatus{
+		.header_wrap{
+			justify-content: center;
+		}
+		.menu {
+			display: none;
+		}
+	}
 }
 
 // 1280px

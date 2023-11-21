@@ -17,7 +17,19 @@
 		top: 50%;
 		left: 50%;
 		z-index: -1;
-		transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%) scale(1);
+		animation: sec1_circle 2s infinite ease; 
+	}
+	@keyframes sec1_circle {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
 	}
 
 	.title_wrap {
@@ -83,6 +95,7 @@
 	}
 }
 
+
 .title {
 	// transform: translateX(-140px);
 	>h2 {
@@ -111,6 +124,17 @@
 @import './section3';
 @import './section4';
 
+section:not(.sec1_home){
+	>div:not(.design){
+		transform: translateX(200px);
+    opacity: 0;
+		transition: transform 0.5s, opacity 0.5s;
+		&.on{
+			transform: translateX(0);
+			opacity: 1;
+		}
+	}
+}
 // 1280px
 @media screen and (max-width:1280px) {}
 
