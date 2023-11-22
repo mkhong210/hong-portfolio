@@ -39,7 +39,7 @@ function Sec3Project() {
 						data.project && data.project.map((obj, k) => (
 							<SwiperSlide className='swiper_item' key={k}>
 								<Link to={`/detail/project/${obj.id}`}>
-									<img src='/asset/work/jejepick_splash.jpg' alt='제제픽' />
+									<img src={obj.image} alt='제제픽' />
 									<p>{obj.title1}</p>
 								</Link>
 							</SwiperSlide>

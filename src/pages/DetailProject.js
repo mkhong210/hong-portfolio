@@ -91,30 +91,40 @@ function DetailProject() {
 					</div>
 					<div className='about_wrap inner'>
 						<div className='about_title'>
-							<p className='lang_en'>Issue <br />& Review</p>
+							{project.review ?
+								<p className='lang_en'>Issue <br />& Review</p>
+								:	
+								<p className='lang_en'>Trouble <br/>Issue</p>
+							}
 						</div>
 						<div className='issue_detail'>
 							<div className='issue_wrap'>
+								{project.review &&
 								<p className='subdesc_title lang_en'>Trouble Issue</p>
+								}
 								<div className='issue_item'>
 									<h3>문제점</h3>
 									<p className='plan_desc'>{project.trouble_1}</p>
 									<h3>해결방안</h3>
 									<p className='plan_desc'>{project.answer_1}</p>
 								</div>
-								<div className='issue_item'>
-									<h3>문제점</h3>
-									<p className='plan_desc'>{project.trouble_2}</p>
-									<h3>해결방안</h3>
-									<p className='plan_desc'>{project.answer_2}</p>
-								</div>
+								{project.trouble_2 &&
+									<div className='issue_item'>
+										<h3>문제점</h3>
+										<p className='plan_desc'>{project.trouble_2}</p>
+										<h3>해결방안</h3>
+										<p className='plan_desc'>{project.answer_2}</p>
+									</div>
+								}
 							</div>
+							{project.review && 
 							<div className='review_wrap'>
 								<p className='subdesc_title lang_en'>REVIEW</p>
 								<div className='review_item'>
 									<p className='plan_desc'>{project.review}</p>
 								</div>
 							</div>
+							}
 						</div>
 					</div>
 				</div>
