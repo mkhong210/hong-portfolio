@@ -67,7 +67,7 @@ function Sec2Skill() {
 						</li>
 						<li className='skill_item'>
 							<p>SCSS</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p>scss 문법으로 믹스인, 변수 등을 활용 가능</p>
 						</li>
 						<li className='skill_item'>
 							<p>JAVASCRIPT</p>
@@ -79,11 +79,11 @@ function Sec2Skill() {
 						</li>
 						<li className='skill_item'>
 							<p>REACT</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p>JSX 형태를 이용하여 페이지를 구현 가능</p>
 						</li>
 						<li className='skill_item'>
 							<p>NEXT</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p></p>
 						</li>
 					</ul>
 				</div>
@@ -103,10 +103,10 @@ function Sec2Skill() {
 							<p>Illustration</p>
 							<p>프리드로잉, 벡터 이미지 제작,디자인 및 시안 제작 가능</p>
 						</li>
-						<li className='skill_item'>
+						{/* <li className='skill_item'>
 							<p>Xd</p>
 							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
-						</li>
+						</li> */}
 						<li className='skill_item'>
 							<p>Premiere Pro</p>
 							<p>컷 편집, 효과, 자막 등의 작업 가능</p>
@@ -127,7 +127,7 @@ function Sec2Skill() {
 					<ul>
 						<li className='skill_item'>
 							<p>Git hub</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p>프로젝트 형상관리, 페이지 저장 및 배포 가능</p>
 						</li>
 						<li className='skill_item'>
 							<p>Figma</p>
@@ -135,7 +135,7 @@ function Sec2Skill() {
 						</li>
 						<li className='skill_item'>
 							<p>Notion</p>
-							<p>웹 표준성을 중시하여 단단한 마크업을 할 수 있습니다.</p>
+							<p>프로젝트 정보 관리 가능</p>
 						</li>
 					</ul>
 				</div>
