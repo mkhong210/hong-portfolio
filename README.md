@@ -1,3 +1,20 @@
+#Hong Min Kyung PORTFOLIO 
+
+새로운 것을 받아들이고 계속해서 발전해 나가고 싶은 개발자 홍민경입니다.
+
+## 배포주소
+> [포트폴리오 보러가기](https://hongmk-portfolio.vercel.app/)
+
+## Stack
+React / SCSS / JavaScript / Vercel / Visual Studio code
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+<!-- 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +85,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ -->
