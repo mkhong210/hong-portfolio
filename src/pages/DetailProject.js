@@ -91,6 +91,23 @@ function DetailProject() {
 					</div>
 					<div className='about_wrap inner'>
 						<div className='about_title'>
+							<p className='lang_kr'>제작 구현</p>
+						</div>
+						<div className='about_detail'>
+							<div className='about_plan'>
+								<p className='plan_desc'>{project.function_1}</p>
+								{project.function_2 &&
+									<p className='plan_desc'>{project.function_2}</p>
+								}
+								{project.function_3 &&
+									<p className='plan_desc'>{project.function_3}</p>
+								}
+							</div>
+						</div>
+					</div>
+					{/* trouble */}
+					<div className='about_wrap inner'>
+						<div className='about_title'>
 							{project.review ?
 								<p className='lang_en'>Issue <br />& Review</p>
 								:	
