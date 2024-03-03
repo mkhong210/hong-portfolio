@@ -72,7 +72,7 @@ function DetailProject() {
 								{/* <p className='date'>2023.10 / 3주간</p> */}
 								<div className='color_wrap'>
 									{project.color && project.color.map((item, k) => (
-										<div style={{ backgroundColor: `${item}` }} className='color' key={k}><p>#6DAD9C</p></div>
+										<div style={{ backgroundColor: `${item}` }} className='color' key={k}><p>{item}</p></div>
 									))
 									}
 								</div>
