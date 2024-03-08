@@ -82,7 +82,7 @@
 		"id": "project-4",
 		"title1":"홍무비 - HongMovie",
 		"title2":"HongMovie",
-		"tags":["React", "SCSS", "API", "Git Hub"],
+		"tags":["React", "API", "Git Hub"],
 		"sub_title":"영화 API를 사용한 영화 및 TV 시리즈 정보 제공 웹사이트",
 		"image":"/asset/work/jejepick_thumb.jpg",
 		"site":"",
