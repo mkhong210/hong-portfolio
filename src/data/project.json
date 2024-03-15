@@ -80,18 +80,18 @@
 	},
 	{
 		"id": "project-4",
-		"title1":"홍무비 - HongMovie",
-		"title2":"HongMovie",
-		"tags":["React", "API", "Git Hub"],
-		"sub_title":"영화 API를 사용한 영화 및 TV 시리즈 정보 제공 웹사이트",
+		"title1":"메디포켓 - MediPocket",
+		"title2":"MediPocket",
+		"tags":["NEXT", "API", "MongoDB", "Git Hub"],
+		"sub_title":"약 API를 사용한 약 정보 제공 및 처방전 기록 앱",
 		"image":"/asset/work/jejepick_thumb.jpg",
 		"site":"",
-		"giturl":"https://github.com/mkhong210/moviedb",
+		"giturl":"",
 		"about_plan_1":"제주도 여행계획을 세울 때 자신이 좋아할만한 목적지를 찾는데 많은 시간이 소요됩니다. 이러한 배경을 바탕으로 사용자의 여행 성향을 파악 후 여행지를 추천해주면 어떨까? 라는 생각으로 해당 앱을 기획해보았습니다.",
 		"about_plan_2":"사용자의 성향을 파악한 뒤 여행지 추천 목록을 보여주고 사용자가 원하는 여행지를 선택하여 여행 코스까지 만들어 볼 수 있는 앱을 제작했습니다.",
-		"about_date":"2023.08.29 ~ 2023.09.06",
-		"color":["#000000", "#8a2be2"],
-		"contribution":["100% 개인 프로젝트"],
+		"about_date":"제작 중",
+		"color":["#E4EDFF", "#96B4FB"],
+		"contribution":[""],
 		"function_1":"~~~를 구현했다",
 		"function_2":"~~~를 구현했다",
 		"function_3":"~~~를 구현했다",
@@ -102,6 +102,6 @@
 		"answer_1":"",
 		"trouble_2":null,
 		"answer_2":"",
-		"review":"Context를 처음 사용해서 진행한 프로젝트로 기존의 페이지마다 api를 불러와서"
+		"review":""
 	}
 ]}
