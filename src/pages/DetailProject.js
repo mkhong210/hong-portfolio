@@ -49,8 +49,8 @@ function DetailProject() {
 						<div className='about_title'>
 							<p className='lang_en'>About <br />the Project</p>
 							<div className='look_wrap'>
-								<a href={project.site} className='look'>Go to Site</a>
-								<a href={project.giturl} className='look'>Go to Git Hub</a>
+								<a href={project.site} className='look' target='_blank'>Go to Site</a>
+								<a href={project.giturl} className='look' target='_blank'>Go to Git Hub</a>
 							</div>
 						</div>
 						<div className='about_detail'>
@@ -66,6 +66,10 @@ function DetailProject() {
 							<div className='about_date'>
 								<p className='subdesc_title'>제작 기한 :</p>
 								<p className='date'>{project.about_date}</p>
+							</div>
+							<div className='about_people'>
+								<p className='subdesc_title'>제작 인원 :</p>
+								<p className='number'>{project.about_people}</p>
 							</div>
 							<div className='about_color'>
 								<p className='subdesc_title'>메인 색상</p>
@@ -102,6 +106,18 @@ function DetailProject() {
 								{project.function_3 &&
 									<p className='plan_desc'>{project.function_3}</p>
 								}
+								{project.function_4 &&
+									<p className='plan_desc'>{project.function_4}</p>
+								}
+								{project.function_5 &&
+									<p className='plan_desc'>{project.function_5}</p>
+								}
+								{project.function_6 &&
+									<p className='plan_desc'>{project.function_6}</p>
+								}
+								{project.function_7 &&
+									<p className='plan_desc'>{project.function_7}</p>
+								}
 							</div>
 						</div>
 					</div>
@@ -120,16 +136,16 @@ function DetailProject() {
 								<p className='subdesc_title lang_en'>Trouble Issue</p>
 								}
 								<div className='issue_item'>
-									<h3>문제점</h3>
+									<h3>문제점 1</h3>
 									<p className='plan_desc'>{project.trouble_1}</p>
-									<h3>해결방안</h3>
+									<h3>해결방안 1</h3>
 									<p className='plan_desc'>{project.answer_1}</p>
 								</div>
 								{project.trouble_2 &&
 									<div className='issue_item'>
-										<h3>문제점</h3>
+										<h3>문제점 2</h3>
 										<p className='plan_desc'>{project.trouble_2}</p>
-										<h3>해결방안</h3>
+										<h3>해결방안 2</h3>
 										<p className='plan_desc'>{project.answer_2}</p>
 									</div>
 								}
