@@ -10,7 +10,7 @@ function Main() {
 
 	useEffect(()=>{
 		SetHeadSatus(true)
-		console.log(headSatus)
+		// console.log(headSatus)
 	}, [headSatus])
 
 	useEffect(()=>{
