@@ -20,7 +20,7 @@ function DetailProject() {
 
 	useEffect(() => {
 		SetHeadSatus(false);
-		console.log(headSatus);
+		// console.log(headSatus);
 	}, [headSatus])
 
 	if (loading) {
@@ -73,7 +73,6 @@ function DetailProject() {
 							</div>
 							<div className='about_color'>
 								<p className='subdesc_title'>메인 색상</p>
-								{/* <p className='date'>2023.10 / 3주간</p> */}
 								<div className='color_wrap'>
 									{project.color && project.color.map((item, k) => (
 										<div style={{ backgroundColor: `${item}` }} className='color' key={k}><p>{item}</p></div>
@@ -81,16 +80,16 @@ function DetailProject() {
 									}
 								</div>
 							</div>
+							{/* 
 							<div className='about_contribution'>
 								<p className='subdesc_title'>기여도</p>
-								{/* <p className='date'>2023.10 / 3주간</p> */}
 								<div className='contri_wrap'>
 									{project.contribution && project.contribution.map((item, k) => (
 										<p key={k}>{item}</p>
 									))
 									}
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<div className='about_wrap inner'>
