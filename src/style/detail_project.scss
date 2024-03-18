@@ -86,11 +86,13 @@
 			}
 		}
 
+		
 		.about_plan{
 			>p:not(:last-child){
-				margin-bottom: 40px;
+				margin-bottom: 30px;
 			}
 		}
+
 		p.subdesc_title{
 			font-weight: bold;
 			margin-bottom: 10px;
