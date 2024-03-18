@@ -68,7 +68,7 @@ function Section2() {
 						<p>개발자 홍민경입니다.</p>
 					</div>
 					<div className='introduce'>
-						<p>기존에 전공으로 배웠던 html, css, javascript, jquery에 React, next와 같은 프레임워크를 배우고 경험해 보면서 프론트엔드 개발에 더욱 흥미를 가지게 되었습니다. </p>
+						<p>기존에 전공으로 배웠던 html, css, javascript, jquery에 React, next와 같은 프레임워크를 배우고 경험해 보면서 프론트엔드 개발에 더욱 흥미를 가지게 되었습니다.<br />전공으로 기획, 디자인, 개발까지의 흐름을 다 배웠다 보니 프로젝트를 진행함에 있어 각 파트에 대한 이해도가 높아 작업을 할 때 효율을 높일 수 있습니다.</p>
 						<p>소통과 협업을 중요시하며 혼자 하는 것이 아닌 같이 작업하는 개발자, 변화하는 기술에 발맞춰 꾸준히 발전하는 프론트엔드 개발자가 되도록 노력할 것입니다.</p>
 					</div>
 					<div className='skill_wrap'>

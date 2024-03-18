@@ -222,6 +222,16 @@
 					background-color: #000;
 				}
 			}
+			ul :nth-child(8).skill_item{
+				p:first-child::before{
+					background-color: #689F63;
+				}
+			}
+			ul :nth-child(9).skill_item{
+				p:first-child::before{
+					background-color: #F29111;
+				}
+			}
 		}
 	}
 	&02{

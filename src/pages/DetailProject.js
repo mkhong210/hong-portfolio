@@ -99,23 +99,54 @@ function DetailProject() {
 						<div className='about_detail'>
 							<div className='about_plan'>
 								<p className='plan_desc'>{project.function_1}</p>
+								<p className='plan_desc_plus'>{project.function_1_plus}</p>
+							</div>
+							<div className='about_plan'>
 								{project.function_2 &&
 									<p className='plan_desc'>{project.function_2}</p>
 								}
+								{project.function_2_plus &&
+									<p className='plan_desc'>{project.function_2_plus}</p>
+								}
+							</div>
+							<div className='about_plan'>
 								{project.function_3 &&
 									<p className='plan_desc'>{project.function_3}</p>
 								}
+								{project.function_3_plus &&
+									<p className='plan_desc'>{project.function_3_plus}</p>
+								}
+							</div>
+							<div className='about_plan'>
 								{project.function_4 &&
 									<p className='plan_desc'>{project.function_4}</p>
 								}
+								{project.function_4_plus &&
+									<p className='plan_desc'>{project.function_4_plus}</p>
+								}
+							</div>
+							<div className='about_plan'>
 								{project.function_5 &&
 									<p className='plan_desc'>{project.function_5}</p>
 								}
+								{project.function_5_plus &&
+									<p className='plan_desc'>{project.function_5_plus}</p>
+								}
+							</div>
+							<div className='about_plan'>
 								{project.function_6 &&
 									<p className='plan_desc'>{project.function_6}</p>
 								}
+								{project.function_6_plus &&
+									<p className='plan_desc'>{project.function_6_plus}</p>
+								}
+							</div>
+							<div className='about_plan'>
 								{project.function_7 &&
 									<p className='plan_desc'>{project.function_7}</p>
+								}
+								{project.function_7_plus &&
+									<p className='plan_desc'>{project.function_7_plus}</p>
 								}
 							</div>
 						</div>
@@ -125,14 +156,14 @@ function DetailProject() {
 						<div className='about_title'>
 							{project.review ?
 								<p className='lang_en'>Issue <br />& Review</p>
-								:	
-								<p className='lang_en'>Trouble <br/>Issue</p>
+								:
+								<p className='lang_en'>Trouble <br />Issue</p>
 							}
 						</div>
 						<div className='issue_detail'>
 							<div className='issue_wrap'>
 								{project.review &&
-								<p className='subdesc_title lang_en'>Trouble Issue</p>
+									<p className='subdesc_title lang_en'>Trouble Issue</p>
 								}
 								<div className='issue_item'>
 									<h3>문제점 1</h3>
@@ -149,13 +180,13 @@ function DetailProject() {
 									</div>
 								}
 							</div>
-							{project.review && 
-							<div className='review_wrap'>
-								<p className='subdesc_title lang_en'>REVIEW</p>
-								<div className='review_item'>
-									<p className='plan_desc'>{project.review}</p>
+							{project.review &&
+								<div className='review_wrap'>
+									<p className='subdesc_title lang_en'>REVIEW</p>
+									<div className='review_item'>
+										<p className='plan_desc'>{project.review}</p>
+									</div>
 								</div>
-							</div>
 							}
 						</div>
 					</div>

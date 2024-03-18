@@ -85,6 +85,14 @@ function Sec2Skill() {
 							<p>NEXT</p>
 							<p></p>
 						</li>
+						<li className='skill_item'>
+							<p>Node.js</p>
+							<p></p>
+						</li>
+						<li className='skill_item'>
+							<p>MySQL</p>
+							<p></p>
+						</li>
 					</ul>
 				</div>
 			</div>
