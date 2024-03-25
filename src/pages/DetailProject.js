@@ -49,10 +49,15 @@ function DetailProject() {
 						<div className='about_title'>
 							<p className='lang_en'>About <br />the Project</p>
 							<div className='look_wrap'>
-								<a href={project.site} className='look' target='_blank'>Go to Site</a>
-								<a href={project.giturl} className='look' target='_blank'>Go to Git Hub</a>
+								<div className='look'>
+									<a href={project.site} className='site' target='_blank'>Go to Site</a>
+								</div>
+								<div className='look'>
+									<a href={project.giturl} className='git' target='_blank'>Go to Git Hub</a>
+								</div>
 							</div>
 						</div>
+						
 						<div className='about_detail'>
 							<div className='about_plan'>
 								<p className='plan_desc'>{project.about_plan_1}</p>
