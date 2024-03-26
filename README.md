@@ -2,6 +2,8 @@
 
 새로운 것을 받아들이고 계속해서 발전해 나가고 싶은 개발자 홍민경입니다.
 
+<img src='./public/asset/work/portfolio_thumb.png' alt='mycocktailer 표지'/>
+
 ## 배포주소
 > [포트폴리오 보러가기](https://hongmk-portfolio.vercel.app/)
 
