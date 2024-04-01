@@ -15,7 +15,7 @@
 		"about_people":"6명",
 		"color":["#6DAD9C","#FFE668","#FED77A","#FFA366"],
 		"contribution":["전반적인 기획과 제주관광API 연결 및 검색 / 리스트 페이지 제작","Git hub 관리 및 프로젝트 진행 관리"],
-		"function_1":"회원가입 및 로그인 기능 구현",
+		"function_1":"회원가입 및 로그인 기능 구현 (ID : tester, PW : password)",
 		"function_1_plus":null,
 		"function_2":"간단한 테스트를 통해 성향에 맞는 맞춤 여행지 추천",
 		"function_2_plus":null,
