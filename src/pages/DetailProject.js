@@ -57,7 +57,7 @@ function DetailProject() {
 								</div>
 							</div>
 						</div>
-						
+
 						<div className='about_detail'>
 							<div className='about_plan'>
 								<p className='plan_desc'>{project.about_plan_1}</p>
@@ -106,54 +106,42 @@ function DetailProject() {
 								<p className='plan_desc'>{project.function_1}</p>
 								<p className='plan_desc_plus'>{project.function_1_plus}</p>
 							</div>
-							<div className='about_plan'>
-								{project.function_2 &&
+							{project.function_2 &&
+								<div className='about_plan'>
 									<p className='plan_desc'>{project.function_2}</p>
-								}
-								{project.function_2_plus &&
 									<p className='plan_desc'>{project.function_2_plus}</p>
-								}
-							</div>
-							<div className='about_plan'>
-								{project.function_3 &&
+								</div>
+							}
+							{project.function_3 &&
+								<div className='about_plan'>
 									<p className='plan_desc'>{project.function_3}</p>
-								}
-								{project.function_3_plus &&
 									<p className='plan_desc'>{project.function_3_plus}</p>
-								}
-							</div>
-							<div className='about_plan'>
-								{project.function_4 &&
+								</div>
+							}
+							{project.function_4 &&
+								<div className='about_plan'>
 									<p className='plan_desc'>{project.function_4}</p>
-								}
-								{project.function_4_plus &&
 									<p className='plan_desc'>{project.function_4_plus}</p>
-								}
-							</div>
-							<div className='about_plan'>
-								{project.function_5 &&
+								</div>
+							}
+							{project.function_5 &&
+								<div className='about_plan'>
 									<p className='plan_desc'>{project.function_5}</p>
-								}
-								{project.function_5_plus &&
 									<p className='plan_desc'>{project.function_5_plus}</p>
-								}
-							</div>
-							<div className='about_plan'>
-								{project.function_6 &&
+								</div>
+							}
+							{project.function_6 &&
+								<div className='about_plan'>
 									<p className='plan_desc'>{project.function_6}</p>
-								}
-								{project.function_6_plus &&
 									<p className='plan_desc'>{project.function_6_plus}</p>
-								}
-							</div>
-							<div className='about_plan'>
-								{project.function_7 &&
+								</div>
+							}
+							{project.function_7 &&
+								<div className='about_plan'>
 									<p className='plan_desc'>{project.function_7}</p>
-								}
-								{project.function_7_plus &&
 									<p className='plan_desc'>{project.function_7_plus}</p>
-								}
-							</div>
+								</div>
+							}
 						</div>
 					</div>
 					{/* trouble */}
