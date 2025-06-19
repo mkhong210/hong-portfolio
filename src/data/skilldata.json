@@ -1,0 +1,157 @@
+[
+  {
+    "id": "frontend",
+    "title": "FRONTEND",
+    "number": "01",
+    "skills": [
+      {
+        "name": "HTML",
+        "description": "웹 표준성을 중시하여 단단한 마크업 가능",
+        "color": "#2965F1"
+      },
+      {
+        "name": "CSS",
+        "description": "시멘틱 태그 활용, css 요소를 이해하고 자유로운 적용 가능",
+        "color": "#F16529"
+      },
+      {
+        "name": "SCSS",
+        "description": "scss 문법으로 믹스인, 변수 등을 활용 가능",
+        "color": "#CF649A"
+      },
+      {
+        "name": "JAVASCRIPT",
+        "description": "기본 구문과 구조, DOM, 애니메이션 등 작업 가능",
+        "color": "#F1BF26"
+      },
+      {
+        "name": "JQUERY",
+        "description": "오픈소스 활용 및 간단한 기능 구현 가능",
+        "color": "#0868AC"
+      },
+      {
+        "name": "REACT",
+        "description": "JSX 형태를 이용하여 페이지를 구현 가능",
+        "color": "#00D8FF"
+      },
+      {
+        "name": "NEXT",
+        "description": "React 기반으로 컴포넌트를 활용해 페이지를 구현 가능",
+        "color": "#000000"
+      }
+    ]
+  },
+  {
+    "id": "backend",
+    "title": "BACKEND",
+    "number": "02",
+    "skills": [
+      {
+        "name": "C#",
+        "description": ".NET 프레임워크 기반으로 백엔드 로직을 개발 가능",
+        "color": "#178600"
+      },
+      {
+        "name": ".NET",
+        "description": "ASP.NET을 활용한 웹 API 개발과 서버 사이드 프로그래밍 경험이 있음",
+        "color": "#512BD4"
+      },
+      {
+        "name": "Node.js",
+        "description": "기본적인 데이터베이스 설계와 쿼리 작성 가능",
+        "color": "#689F63"
+      },
+      {
+        "name": "Express.js",
+        "description": "Express 프레임워크를 사용하여 RESTful API를 구축 가능",
+        "color": "#000000"
+      },
+      {
+        "name": "MySQL",
+        "description": "관계형 데이터베이스 설계와 운영 경험이 있음",
+        "color": "#F29111"
+      },
+      {
+        "name": "MongoDB",
+        "description": "NoSQL 데이터베이스로 문서 기반 데이터 모델링을 이해하고 사용 가능",
+        "color": "#47A248"
+      }
+    ]
+  },
+  {
+    "id": "language",
+    "title": "LANGUAGES",
+    "number": "03",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "description": "JavaScript에 타입을 더해 안정적인 코드 작성 가능",
+        "color": "#3178C6"
+      },
+      {
+        "name": "C",
+        "description": "기본 문법과 포인터 개념을 이해한 상태",
+        "color": "#555555"
+      },
+      {
+        "name": "C++",
+        "description": "객체지향 프로그래밍과 STL 활용이 가능",
+        "color": "#00599C"
+      },
+      {
+        "name": "Python",
+        "description": "데이터 분석 프로젝트 경험이 있으며, 스크립팅과 데이터 처리 가능",
+        "color": "#3776AB"
+      }
+    ]
+  },
+  {
+    "id": "graphic",
+    "title": "GRAPHIC",
+    "number": "04",
+    "skills": [
+      {
+        "name": "Figma",
+        "description": "UI/UX 디자인 프로토타입을 제작하고 협업에 활용 가능",
+        "color": "#FF61F6"
+      },
+      {
+        "name": "Photoshop",
+        "description": "클리핑마스크, 레이어마스크, 필터 등 자유롭게 사용 가능",
+        "color": "#31A8FF"
+      },
+      {
+        "name": "Illustration",
+        "description": "프리드로잉, 벡터 이미지 제작,디자인 및 시안 제작 가능",
+        "color": "#FF9A00"
+      },
+      {
+        "name": "Premiere Pro",
+        "description": "컷 편집, 효과, 자막 등의 작업 가능",
+        "color": "#9999FF"
+      },
+      {
+        "name": "After Effects",
+        "description": "모션 그래픽 및 3D 효과를 활용한 영상 편집 경험이 있음",
+        "color": "#00005B"
+      }
+    ]
+  },
+  {
+    "id": "etc",
+    "title": "ETC",
+    "number": "05",
+    "skills": [
+      {
+        "name": "Git hub",
+        "description": "프로젝트 형상관리, 페이지 저장 및 배포 가능",
+        "color": "#000000"
+      },
+      {
+        "name": "Notion",
+        "description": "프로젝트 관리 및 문서화 도구로 활용 가능",
+        "color": "#000000"
+      }
+    ]
+  }
+]
